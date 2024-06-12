@@ -11,5 +11,11 @@ public class PadawanTest01 {
         System.out.println(pad01.name);
         System.out.println(pad01.age);
         System.out.println(pad01.gender);
+
+        // Reference
+
+        pad02 = pad01;
+
+        System.out.println(pad02.name);
     }
 }
