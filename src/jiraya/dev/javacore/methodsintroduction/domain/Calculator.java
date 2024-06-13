@@ -20,4 +20,13 @@ public class Calculator {
         return n * 3;
     }
 
+    public int sumArray(int... nums) {
+        int sum = 0;
+
+        for (int n : nums) {
+            sum += n;
+        }
+
+        return sum;
+    }
 }
