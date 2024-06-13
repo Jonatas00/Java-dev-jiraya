@@ -13,7 +13,8 @@ public class CalculatorTest01 {
         int tripledNum = calculator.triple(3);
         System.out.println(tripledNum);
 
-        int divisionResult = calculator.division(2,3);
+        int divisionResult = calculator.division(2, 3);
         System.out.println(divisionResult);
+
     }
 }

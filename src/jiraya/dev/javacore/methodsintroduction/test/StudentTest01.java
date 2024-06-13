@@ -14,6 +14,6 @@ public class StudentTest01 {
 
         printer.PrintStdnt(student01);
 
-
+        student01.printStdnt();
     }
 }
