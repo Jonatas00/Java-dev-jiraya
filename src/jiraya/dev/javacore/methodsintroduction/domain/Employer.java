@@ -15,7 +15,10 @@ public class Employer {
 
     public void printData() {
         System.out.printf("Employer name: %s \nEmployer age: %d \n", this.name, this.age);
-        System.out.println("Salaries: R$"+ Arrays.toString(this.salaries));
+        System.out.println("Salaries:");
+        for (double salary: this.salaries){
+            System.out.printf("R$%.2f\n", salary);
+        }
     }
 
     public void mediaSalaries() {
