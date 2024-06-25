@@ -3,20 +3,43 @@ package jiraya.dev.javacore.methodsintroduction.domain;
 import java.util.Arrays;
 
 public class Employer {
-    protected String name;
-    protected int age;
-    protected double[] salaries;
+    private String name;
+    private int age;
+    private double[] salaries;
+    private double average;
 
-    public Employer(String name, int age, double[] salaries) {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
         this.age = age;
+    }
+
+    public double[] getSalaries() {
+        return salaries;
+    }
+
+    public void setSalaries(double[] salaries) {
         this.salaries = salaries;
+    }
+
+    public void getAverage() {
+        mediaSalaries();
     }
 
     public void printData() {
         System.out.printf("Employer name: %s \nEmployer age: %d \n", this.name, this.age);
         System.out.println("Salaries:");
-        for (double salary: this.salaries){
+        for (double salary : this.salaries) {
             System.out.printf("R$%.2f\n", salary);
         }
     }
@@ -28,8 +51,8 @@ public class Employer {
         for (double salary : this.salaries) {
             total += salary;
         }
-        double media = total / salariesQuantity;
+        this.average = total / salariesQuantity;
 
-        System.out.printf("The media of %s's salaries is R$%.2f", this.name, media);
+        System.out.printf("The media of %s's salaries is R$%.2f", this.name, this.average);
     }
 }
