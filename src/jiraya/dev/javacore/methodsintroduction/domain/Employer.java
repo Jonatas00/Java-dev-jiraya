@@ -25,8 +25,8 @@ public class Employer {
         int salariesQuantity = this.salaries.length;
 
         double total = 0;
-        for (double s : this.salaries) {
-            total += s;
+        for (double salary : this.salaries) {
+            total += salary;
         }
         double media = total / salariesQuantity;
 
