@@ -19,5 +19,8 @@ public class PrimitiveTypes {
 		String name = "Jonatas";
 
 		System.out.println(name);
+
+		System.out.println(age + bigNum + salary + ageByte);
+		System.out.println(ehfalse == ehtrue);
 	}
 }
