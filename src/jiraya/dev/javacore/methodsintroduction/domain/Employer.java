@@ -1,7 +1,5 @@
 package jiraya.dev.javacore.methodsintroduction.domain;
 
-import java.util.Arrays;
-
 public class Employer {
     private String name;
     private int age;
