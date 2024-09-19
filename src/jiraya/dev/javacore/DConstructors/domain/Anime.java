@@ -5,12 +5,7 @@ public class Anime {
   private String genre;
   private Boolean haveManga;
   private Integer episodes;
-
-  public Anime(String name, String genre, int episodes) {
-    this.name = name;
-    this.genre = genre;
-    this.episodes = episodes;
-  }
+  private String studio;
 
   public Anime(String name, String genre, int episodes, boolean haveManga) {
     this.name = name;
@@ -19,23 +14,18 @@ public class Anime {
     this.haveManga = haveManga;
   }
 
-  public void init(String name, String genre, int episodes) {
-    this.name = name;
-    this.genre = genre;
-    this.episodes = episodes;
-  }
-
-  public void init(String name, String genre, int episodes, boolean haveManga) {
-    this.init(name, genre, episodes);
-    this.haveManga = haveManga;
+  public Anime(String name, String genre, int episodes, boolean haveManga, String studio) {
+    this(name, genre, episodes, haveManga);
+    this.studio = studio;
   }
 
   public void printAnimeInfos() {
     System.out.println(this.name);
     System.out.println(this.episodes);
     System.out.println(this.genre);
-    if (this.haveManga != null) {
-      System.out.println(this.haveManga);
+    System.out.println(this.haveManga);
+    if (this.studio != null) {
+      System.out.println(this.studio);
     }
   }
 
