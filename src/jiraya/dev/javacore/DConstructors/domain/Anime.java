@@ -1,10 +1,23 @@
-package jiraya.dev.javacore.DConstructors.domain;
+package jiraya.dev.javacore.Dconstructors.domain;
 
 public class Anime {
   private String name;
   private String genre;
-  private boolean haveManga;
-  private int episodes;
+  private Boolean haveManga;
+  private Integer episodes;
+
+  public Anime(String name, String genre, int episodes) {
+    this.name = name;
+    this.genre = genre;
+    this.episodes = episodes;
+  }
+
+  public Anime(String name, String genre, int episodes, boolean haveManga) {
+    this.name = name;
+    this.genre = genre;
+    this.episodes = episodes;
+    this.haveManga = haveManga;
+  }
 
   public void init(String name, String genre, int episodes) {
     this.name = name;
@@ -21,9 +34,12 @@ public class Anime {
     System.out.println(this.name);
     System.out.println(this.episodes);
     System.out.println(this.genre);
-    System.out.println(this.haveManga);
+    if (this.haveManga != null) {
+      System.out.println(this.haveManga);
+    }
   }
 
+  // #region getters and setters
   public void setName(String name) {
     this.name = name;
   }
@@ -55,4 +71,6 @@ public class Anime {
   public void setHaveManga(boolean haveManga) {
     this.haveManga = haveManga;
   }
+  // #endregion
+
 }

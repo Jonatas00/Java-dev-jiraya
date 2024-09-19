@@ -1,16 +1,17 @@
-package jiraya.dev.javacore.DConstructors.test;
+package jiraya.dev.javacore.Dconstructors.test;
 
-import jiraya.dev.javacore.DConstructors.domain.Anime;
+import jiraya.dev.javacore.Dconstructors.domain.Anime;
 
 public class AnimeTest01 {
   public static void main(String[] args) {
-    Anime dbz = new Anime();
-    Anime dbz33 = new Anime();
+    Anime dbz = new Anime("Dragon Ball Z", "Action", 8000);
+    Anime deathNote = new Anime("Death Note", "Drama", 24, true);
 
-    dbz.init("Dragon Ball Z", "Action", 8000);
-    dbz33.init("Dragon Ball Z", "Action", 8000, true);
+    // dbz.init("Dragon Ball Z", "Action", 8000);
+    // dbz33.init("Dragon Ball GT", "Action", 8000, true);
+
     dbz.printAnimeInfos();
     System.out.println();
-    dbz33.printAnimeInfos();
+    deathNote.printAnimeInfos();
   }
-}
+} 
