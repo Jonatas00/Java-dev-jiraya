@@ -1,4 +1,4 @@
-package jiraya.dev.javacore.classintroduction.domain;
+package jiraya.dev.javacore.Aclassintroduction.domain;
 
 public class Jedi {
     public String name;

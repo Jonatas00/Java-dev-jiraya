@@ -1,6 +1,6 @@
-package jiraya.dev.javacore.methodsintroduction.test;
+package jiraya.dev.javacore.Bmethodsintroduction.test;
 
-import jiraya.dev.javacore.methodsintroduction.domain.People;
+import jiraya.dev.javacore.Bmethodsintroduction.domain.People;
 
 public class PeopleTest01 {
     public static void main(String[] args) {

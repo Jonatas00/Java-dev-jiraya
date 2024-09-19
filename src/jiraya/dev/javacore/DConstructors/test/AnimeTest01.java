@@ -1,6 +1,6 @@
-package jiraya.dev.javacore.overloading.test;
+package jiraya.dev.javacore.DConstructors.test;
 
-import jiraya.dev.javacore.overloading.domain.Anime;
+import jiraya.dev.javacore.DConstructors.domain.Anime;
 
 public class AnimeTest01 {
   public static void main(String[] args) {

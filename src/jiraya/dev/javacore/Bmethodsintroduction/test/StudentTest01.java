@@ -1,7 +1,7 @@
-package jiraya.dev.javacore.methodsintroduction.test;
+package jiraya.dev.javacore.Bmethodsintroduction.test;
 
-import jiraya.dev.javacore.methodsintroduction.domain.Printer;
-import jiraya.dev.javacore.methodsintroduction.domain.Student;
+import jiraya.dev.javacore.Bmethodsintroduction.domain.Printer;
+import jiraya.dev.javacore.Bmethodsintroduction.domain.Student;
 
 public class StudentTest01 {
     public static void main(String[] args) {

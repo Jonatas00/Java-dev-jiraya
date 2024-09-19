@@ -1,6 +1,6 @@
-package jiraya.dev.javacore.classintroduction.test;
+package jiraya.dev.javacore.Aclassintroduction.test;
 
-import jiraya.dev.javacore.classintroduction.domain.Padawan;
+import jiraya.dev.javacore.Aclassintroduction.domain.Padawan;
 
 public class PadawanTest01 {
     public static void main(String[] args) {

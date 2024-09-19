@@ -1,4 +1,4 @@
-package jiraya.dev.javacore.methodsintroduction.domain;
+package jiraya.dev.javacore.Bmethodsintroduction.domain;
 
 public class People {
     private String name;

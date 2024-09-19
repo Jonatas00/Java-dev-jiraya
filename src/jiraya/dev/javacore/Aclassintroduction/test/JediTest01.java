@@ -1,6 +1,6 @@
-package jiraya.dev.javacore.classintroduction.test;
+package jiraya.dev.javacore.Aclassintroduction.test;
 
-import jiraya.dev.javacore.classintroduction.domain.Jedi;
+import jiraya.dev.javacore.Aclassintroduction.domain.Jedi;
 
 public class JediTest01 {
     public static void main(String[] args) {

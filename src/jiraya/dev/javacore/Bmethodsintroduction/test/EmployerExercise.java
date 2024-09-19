@@ -1,6 +1,6 @@
-package jiraya.dev.javacore.methodsintroduction.test;
+package jiraya.dev.javacore.Bmethodsintroduction.test;
 
-import jiraya.dev.javacore.methodsintroduction.domain.Employer;
+import jiraya.dev.javacore.Bmethodsintroduction.domain.Employer;
 
 public class EmployerExercise {
     public static void main(String[] args) {

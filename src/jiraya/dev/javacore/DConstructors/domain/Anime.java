@@ -1,4 +1,4 @@
-package jiraya.dev.javacore.overloading.domain;
+package jiraya.dev.javacore.DConstructors.domain;
 
 public class Anime {
   private String name;

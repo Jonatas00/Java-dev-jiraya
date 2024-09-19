@@ -1,6 +1,6 @@
-package jiraya.dev.javacore.methodsintroduction.test;
+package jiraya.dev.javacore.Bmethodsintroduction.test;
 
-import jiraya.dev.javacore.methodsintroduction.domain.Calculator;
+import jiraya.dev.javacore.Bmethodsintroduction.domain.Calculator;
 
 public class CalculatorTest01 {
     public static void main(String[] args) {
