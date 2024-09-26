@@ -8,7 +8,7 @@ public class CarTest01 {
     Car c2 = new Car("Audi a8", 267);
     Car c3 = new Car("BMW M4 CSL", 307);
 
-    Car.speedLimit = 150;
+    Car.setSpeedLimit(199);
 
     c1.showInfos();
     c2.showInfos();

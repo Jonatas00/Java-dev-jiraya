@@ -3,7 +3,7 @@ package jiraya.dev.javacore.Fstaticmodifier.domain;
 public class Car {
   private String name;
   private double maxSpeed;
-  public static double speedLimit = 250;
+  private static double speedLimit = 250;
 
   public Car(String name, double maxSpeed) {
     this.name = name;
@@ -16,6 +16,14 @@ public class Car {
     System.out.println("Max speed:" + this.maxSpeed);
     System.out.println("Speed limit: " + Car.speedLimit);
     System.out.println("-=-=-=-");
+  }
+
+  public static void setSpeedLimit(double speedLimit) {
+    Car.speedLimit = speedLimit;
+  }
+
+  public static double getSpeedLimit() {
+    return Car.speedLimit;
   }
 
   // #region Getters and setters
