@@ -7,5 +7,9 @@ public class AnimeTest01 {
     Anime anime01 = new Anime();
     Anime anime02 = new Anime();
     Anime anime03 = new Anime();
+
+    String lll = String.format("%s %s %s", anime01, anime02, anime03);
+
+    System.out.println(lll);
   }
 }
