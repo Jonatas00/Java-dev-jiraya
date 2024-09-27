@@ -10,7 +10,7 @@ public class PlayerTest01 {
     Player[] players = new Player[] { player1, player2 };
 
     for (Player p : players) {
-      p.printPlayerName();
+      p.printPlayerInfo();
     }
   }
 }
